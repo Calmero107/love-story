@@ -124,8 +124,7 @@ document.addEventListener(
     var rootTime = document.querySelector("time");
 
     document.querySelector("date").textContent =
-      Math.floor(Math.floor((new Date() - yourDate) / 1000) / 60 / 60 / 24) +
-      " Ngày";
+      Math.floor(Math.floor((new Date() - yourDate) / 1000) / 60 / 60 / 24);
 
     function olock() {
       var today = new Date(),
